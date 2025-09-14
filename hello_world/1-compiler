@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #!/bin/bash
 gcc -c "$CFILE" -o "${CFILE%.c}.o"
+=======
+#!/bin/bash
+gcc -c $CFILE -o "${CFILE%.c}.o"
+>>>>>>> 799f68332c9b009cdcb954b2de4ca3d8da91efac
